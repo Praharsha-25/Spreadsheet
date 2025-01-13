@@ -20,3 +20,10 @@ Angular: Angular was chosen for the frontend due to its robust structure, two-wa
 2. Perform basic calculations across cells (e.g., sum, average).
 3. Undo and redo actions (optional feature).
 4. Responsive interface for desktop and mobile devices.
+
+## Security and Performance Considerations
+Security:
+1. Input validation is applied to prevent malicious data entry and ensure the integrity of the spreadsheet.
+2. User authentication (if applicable) should be handled securely using tokens and session management.
+Performance:
+Efficient data structures are utilized to ensure the app runs smoothly, even with large spreadsheets.
