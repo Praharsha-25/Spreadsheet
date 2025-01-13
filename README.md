@@ -1,27 +1,22 @@
-# ZeotapGoogleSheets
+# Spreadsheet Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+## Description
+This is a web-based spreadsheet application that allows users to perform basic spreadsheet operations, such as entering data, performing calculations, and managing their spreadsheet with a simple user interface. The app is designed to offer a clean, user-friendly experience for basic spreadsheet functionality and can be easily extended for more complex features.
 
-## Development server
+## Tech Stack
+## Frontend
+Angular: Angular was chosen for the frontend due to its robust structure, two-way data binding, and ability to create dynamic, single-page applications. It allows efficient handling of user interactions, smooth updates, and component-based architecture, which is ideal for building scalable user interfaces.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Data Structures
+1. Arrays: Arrays are used for managing the spreadsheet data structure, where each row is represented as an array, and the columns are managed dynamically.
+2. Objects: Used for storing metadata about the spreadsheet (such as row and column headers, cell values, and formulas).
 
-## Code scaffolding
+## Why These Technologies?
+1. Angular: Angular was selected for its powerful tooling and robust framework that supports large applications. Angular's declarative syntax and component-driven architecture help in organizing complex UI, making the development of a responsive, maintainable app much easier.
+2. Arrays & Objects: These basic data structures are ideal for managing data in a spreadsheet, as they allow for easy manipulation, dynamic data binding, and simple storage of cell values.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Features
+1. Create and manage spreadsheets with dynamic rows and columns.
+2. Perform basic calculations across cells (e.g., sum, average).
+3. Undo and redo actions (optional feature).
+4. Responsive interface for desktop and mobile devices.
